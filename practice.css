@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-1st-title{ 
+    font-weight: 800;
+    font-size: 45px;   
+}
+.nav-title{
+    color: tomato;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-btn{
+    color: rgb(255, 255, 253);
+    background-color: hsl(9, 100%, 64%);
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    height: 65px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+h3{
+    font-weight: 600;
+    font-size: 45px;
+}
